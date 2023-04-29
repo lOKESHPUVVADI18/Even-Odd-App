@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  height: 350px;
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+
+.count-para {
+  font-size: 18px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+
+.hint-text {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.button {
+  background-color: #ffffff;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0px;
+}
